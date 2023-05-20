@@ -1,0 +1,31 @@
+.container {
+    width: 400px;
+    margin: auto;
+    }
+
+hr{
+    height:2px;
+    background-color:black;
+}
+
+button {
+    margin-right: 20px;
+   
+    padding-right: 0.75em;
+    margin-right: o.75px;
+    padding-left: 0.75em;
+    justify-content: center;
+}
+fieldset {
+    background-color: aqua;
+  }
+td {
+    text-align: left;
+  }
+  body{
+    text-align: center;
+    /* justify-content: center; */
+    margin: auto;
+    padding-top: 150px;
+    background-color: rgb(208, 205, 248);
+    }

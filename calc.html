@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <form>
+    <div class="container">
+
+        <h2>Calculator Application</h2>
+        <hr>
+        
+            <fieldset>
+                <table style="width:100%">
+                    <br><tr><td>First Number:    <td><input id="first">
+                        <tr><td>Second Number:   <td><input id="second">
+                        <tr><td>Result:          <td><input id="answer">
+                   
+                </table>
+                    <br><br><button type="button" style="background-color: rgb(224, 179, 73);" onclick="add()">Add</button>
+                            <button type="button" style="background-color: rgb(246, 128, 134);" onclick="sub()">Sub</button>
+                            <button type="button" style="background-color: MediumSeaGreen;" onclick="mul()">Mul</button>
+                            <button type="button" style="background-color: paleturquoise;" onclick="div()">Div</button>
+            </fieldset>
+        </div>
+        </form>
+</body>
+<script src="calc.js"></script>
+</html>
