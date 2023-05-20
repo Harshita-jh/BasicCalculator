@@ -1,2 +1,2 @@
 # BasicCalculator
-Creating Calculator Application using HTML, CSS and JavaScript
+Calculator Application using HTML, CSS and JavaScript
